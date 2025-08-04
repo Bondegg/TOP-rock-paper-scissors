@@ -75,4 +75,14 @@ function playRound(human, comp) {
 }
 
 //Function call to play a single round
-playRound(getHumanChoice(), getComputerChoice())
+//playRound(getHumanChoice(), getComputerChoice())
+
+function playGame() {
+    playRound(getHumanChoice(), getComputerChoice())
+    playRound(getHumanChoice(), getComputerChoice())
+    playRound(getHumanChoice(), getComputerChoice())
+    playRound(getHumanChoice(), getComputerChoice())
+    playRound(getHumanChoice(), getComputerChoice())
+}
+
+playGame()
